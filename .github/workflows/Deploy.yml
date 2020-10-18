@@ -31,5 +31,5 @@ jobs:
         run:  npm install surge
       
       - name: Deploy on surge
-        run: surge ./ basic_revision-ak.surge.sh --token ${{secrets.token}} 
+        run: surge ./ basic_revision_ak.surge.sh --token ${{secrets.token}} 
         
